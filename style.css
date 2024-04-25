@@ -1,0 +1,12 @@
+#gameboard {
+  border: solid 1px;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#controls {
+  text-align: center;
+  margin-top: 20px;
+}
