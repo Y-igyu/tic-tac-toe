@@ -1,12 +1,46 @@
+body {
+  background-color: rgb(65, 65, 65);
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #gameboard {
   border: solid 1px;
   height: 600px;
   width: 600px;
   margin: auto;
+  display: grid;
   grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
-#controls {
+.controls {
   text-align: center;
   margin-top: 20px;
+}
+
+.cell {
+  border: solid 1px;
+  text-align: center;
+  font-size: 10rem;
+}
+
+#message {
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.pInfo {
+  font-size: 2rem;
+  margin: 0;
+  align-self: center;
 }
